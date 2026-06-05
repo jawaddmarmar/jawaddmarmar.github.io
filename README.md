@@ -71,7 +71,6 @@ Enrolled: Sep 2025
 - Java Programming - Mar 2024
 - JavaScript - May 2024
 - Full Stack Developer - Jun 2025
-- Education in Emergencies Global Course, UNICEF - Dec 2024
 
 ---
 
