@@ -1,107 +1,169 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jawad Marmar Portfolio</title>
 
-# Jawad Marmar
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-### Web Developer | Computer Science Student
+<style>
+:root{
+  --bg:#0b1220;
+  --surface:#111a2e;
+  --ink:#eaf0ff;
+  --muted:#a7b3c7;
+  --line:#24324d;
+  --blue:#3b82f6;
+  --darkblue:#1e3a8a;
+  --amber:#f59e0b;
+}
 
-I build responsive websites, interactive user interfaces, and full-stack web applications using PHP, MySQL, HTML, CSS, and JavaScript.
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif;}
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-jawaddmarmar.github.io-2563eb?style=for-the-badge)](https://jawaddmarmar.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-jawaddmarmar-111827?style=for-the-badge&logo=github)](https://github.com/jawaddmarmar)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jawaddmarmar@gmail.com)
+body{
+  background:var(--bg);
+  color:var(--ink);
+  overflow-x:hidden;
+}
 
-</div>
+header{
+  position:sticky;top:0;
+  background:rgba(11,18,32,0.8);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+  padding:15px 20px;
+  display:flex;
+  justify-content:space-between;
+}
 
----
+nav a{
+  margin:0 10px;
+  color:var(--muted);
+  text-decoration:none;
+}
+nav a:hover{color:var(--blue);}
 
-## About Me
+.hero{
+  padding:80px 20px;
+  text-align:center;
+}
 
-Motivated web developer currently pursuing computer science studies. I focus on building practical web projects that connect clean frontend design with real backend logic and database workflows.
+.hero h1{
+  font-size:34px;
+  margin:15px 0;
+}
 
-I am interested in web development internships where I can contribute to real projects, improve my code quality, and gain hands-on industry experience.
+.btn{
+  padding:10px 15px;
+  border:1px solid var(--line);
+  border-radius:6px;
+  margin:5px;
+  text-decoration:none;
+  color:var(--ink);
+}
 
----
+.btn.primary{
+  background:var(--blue);
+  border:none;
+}
 
-## Tech Stack
+.section{
+  padding:60px 20px;
+  max-width:900px;
+  margin:auto;
+}
 
-<div align="center">
+.card{
+  background:var(--surface);
+  padding:20px;
+  border-radius:10px;
+  margin:10px 0;
+  border:1px solid var(--line);
+  transition:0.3s;
+}
 
-| Frontend | Backend | Database | Other |
-|---|---|---|---|
-| HTML | PHP | MySQL | Responsive Design |
-| CSS | Full-Stack Logic | SQL Queries | GitHub |
-| JavaScript | Form Handling | Data Management | Deployment |
+.card:hover{
+  transform:translateY(-5px);
+}
 
-</div>
+footer{
+  text-align:center;
+  padding:20px;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+}
 
----
+</style>
+</head>
 
-## Featured Projects
+<body>
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>BrightSmile Dentistry</h3>
-      <p>A full-stack dentistry booking website with patient appointment booking, doctor login, calendar-based doctor availability, and appointment management.</p>
-      <p><strong>Built with:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
-      <a href="https://github.com/jawaddmarmar/Brightsmile_project">View Repository</a>
-    </td>
-    <td width="50%">
-      <h3>Personal Portfolio Website</h3>
-      <p>A responsive portfolio website presenting my profile, projects, skills, certificates, experience, and contact information.</p>
-      <p><strong>Built with:</strong> HTML, CSS, JavaScript</p>
-      <a href="https://jawaddmarmar.github.io">View Website</a>
-    </td>
-  </tr>
-</table>
+<header>
+  <div><b>Jawad<span style="color:#f59e0b">Dev</span></b></div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
----
+<section class="hero">
+  <h4 style="color:#f59e0b;">Web Developer</h4>
+  <h1>Building clean, responsive web solutions.</h1>
+  <p>Computer Science Student focused on Web Development & Backend Systems</p>
 
-## Education
+  <div>
+    <a class="btn primary" href="#projects">View Projects</a>
+    <a class="btn" href="#contact">Contact Me</a>
+  </div>
+</section>
 
-**Computer Science Studies**  
-Le CNAM - Liban  
-Enrolled: Sep 2025
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <div class="card">
+    Passionate Computer Science student building real-world web applications.
+  </div>
+</section>
 
----
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="card">
+    HTML • CSS • JavaScript • PHP • MySQL
+  </div>
+</section>
 
-## Certificates
+<section id="projects" class="section">
+  <h2>Projects</h2>
 
-- Web Development L1 - Jul 2023
-- Java Programming - Mar 2024
-- JavaScript - May 2024
-- Full Stack Developer - Jun 2025
+  <div class="card">
+    <h3>🦷 BrightSmile Dentistry</h3>
+    <p>Full-stack booking system using PHP & MySQL.</p>
+    <a href="https://github.com/jawaddmarmar/Brightsmile_project">GitHub Link</a>
+  </div>
 
----
+  <div class="card">
+    <h3>Portfolio Website</h3>
+    <p>Responsive developer portfolio built with HTML/CSS/JS.</p>
+  </div>
+</section>
 
-## Experience
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <div class="card">
+    Email: jawaddmarmar@gmail.com <br>
+    GitHub: github.com/jawaddmarmar
+  </div>
+</section>
 
-### Content Manager - Born Interactive
+<footer>
+  © <span id="year"></span> Jawad Marmar
+</footer>
 
-Collaborated with web developers to coordinate content deployment, manage digital content, improve website user experience, and maintain content consistency.
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
----
-
-## Languages
-
-| Language | Level |
-|---|---|
-| Arabic | Fluent |
-| French | Fluent |
-| English | Good |
-
----
-
-## Contact
-
-- **Email:** [jawaddmarmar@gmail.com](mailto:jawaddmarmar@gmail.com)
-- **Phone:** +961 71 869 498
-- **GitHub:** [github.com/jawaddmarmar](https://github.com/jawaddmarmar)
-
----
-
-<div align="center">
-
-**Open to web development internship opportunities.**
-
-</div>
+</body>
+</html>
