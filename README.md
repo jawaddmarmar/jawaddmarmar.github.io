@@ -1,49 +1,61 @@
+<div align="center">
+
 # Jawad Marmar
 
-## Web Developer
+### Web Developer | Computer Science Student
 
-I am Jawad Marmar, a computer science student focused on building responsive websites, interactive applications, and full-stack web solutions.
+I build responsive websites, interactive user interfaces, and full-stack web applications using PHP, MySQL, HTML, CSS, and JavaScript.
 
-I work with HTML, CSS, JavaScript, PHP, and MySQL, and I am currently improving my skills through practical projects and continuous learning.
+[![Portfolio](https://img.shields.io/badge/Portfolio-jawaddmarmar.github.io-2563eb?style=for-the-badge)](https://jawaddmarmar.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-jawaddmarmar-111827?style=for-the-badge&logo=github)](https://github.com/jawaddmarmar)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jawaddmarmar@gmail.com)
 
-## Live Portfolio
+</div>
 
-[jawaddmarmar.github.io](https://jawaddmarmar.github.io)
+---
 
 ## About Me
 
-Motivated web developer currently pursuing computer science studies. Skilled in building responsive websites, interactive applications, and full-stack solutions. Passionate about continuous learning, teamwork, and applying technical knowledge to real-world projects.
+Motivated web developer currently pursuing computer science studies. I focus on building practical web projects that connect clean frontend design with real backend logic and database workflows.
 
-## Skills
+I am interested in web development internships where I can contribute to real projects, improve my code quality, and gain hands-on industry experience.
 
-- HTML
-- CSS
-- JavaScript
-- PHP
-- MySQL
-- Responsive Design
-- Frontend Development
-- Full-Stack Development
+---
 
-## Projects
+## Tech Stack
 
-### BrightSmile Dentistry
+<div align="center">
 
-A full-stack dentistry booking website built with PHP, MySQL, HTML, CSS, and JavaScript.
+| Frontend | Backend | Database | Other |
+|---|---|---|---|
+| HTML | PHP | MySQL | Responsive Design |
+| CSS | Full-Stack Logic | SQL Queries | GitHub |
+| JavaScript | Form Handling | Data Management | Deployment |
 
-Features include:
+</div>
 
-- Responsive patient-facing website
-- Appointment booking
-- Doctor login
-- Calendar-based doctor availability
-- Admin dashboard for appointments
+---
 
-Repository: [BrightSmile Project](https://github.com/jawaddmarmar/Brightsmile_project)
+## Featured Projects
 
-### Personal Portfolio Website
+<table>
+  <tr>
+    <td width="50%">
+      <h3>BrightSmile Dentistry</h3>
+      <p>A full-stack dentistry booking website with patient appointment booking, doctor login, calendar-based doctor availability, and appointment management.</p>
+      <p><strong>Built with:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
+      <a href="https://github.com/jawaddmarmar/Brightsmile_project">View Repository</a>
+    </td>
+    <td width="50%">
+      <h3>Personal Portfolio Website</h3>
+      <p>A responsive portfolio website presenting my profile, projects, skills, certificates, experience, and contact information.</p>
+      <p><strong>Built with:</strong> HTML, CSS, JavaScript</p>
+      <a href="https://jawaddmarmar.github.io">View Website</a>
+    </td>
+  </tr>
+</table>
 
-A responsive portfolio website built with HTML, CSS, and JavaScript to present my profile, projects, skills, certificates, and contact information.
+---
 
 ## Education
 
@@ -51,30 +63,46 @@ A responsive portfolio website built with HTML, CSS, and JavaScript to present m
 Le CNAM - Liban  
 Enrolled: Sep 2025
 
+---
+
 ## Certificates
 
 - Web Development L1 - Jul 2023
 - Java Programming - Mar 2024
 - JavaScript - May 2024
 - Full Stack Developer - Jun 2025
-- Ethical Hacking Foundation Program - Present
-- Football Coach Certificate Level D - Apr 2024
 - Education in Emergencies Global Course, UNICEF - Dec 2024
+
+---
 
 ## Experience
 
 ### Content Manager - Born Interactive
 
-Collaborated with web developers to coordinate content deployment, manage digital content, improve website user experience, and keep content consistent.
+Collaborated with web developers to coordinate content deployment, manage digital content, improve website user experience, and maintain content consistency.
+
+---
 
 ## Languages
 
-- Arabic: Fluent
-- French: Fluent
-- English: Good
+| Language | Level |
+|---|---|
+| Arabic | Fluent |
+| French | Fluent |
+| English | Good |
+
+---
 
 ## Contact
 
-- Email: [jawaddmarmar@gmail.com](mailto:jawaddmarmar@gmail.com)
-- Phone: +961 71 869 498
-- GitHub: [github.com/jawaddmarmar](https://github.com/jawaddmarmar)
+- **Email:** [jawaddmarmar@gmail.com](mailto:jawaddmarmar@gmail.com)
+- **Phone:** +961 71 869 498
+- **GitHub:** [github.com/jawaddmarmar](https://github.com/jawaddmarmar)
+
+---
+
+<div align="center">
+
+**Open to web development internship opportunities.**
+
+</div>
